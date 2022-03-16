@@ -1,0 +1,410 @@
+                                            /* utilities */
+                                            
+                                            .containers {
+                                                max-width: 1100px;
+                                                margin: 0 auto;
+                                                overflow: auto;
+                                                padding: 0 40px;
+                                            }
+                                            
+                                            .containers {
+                                                max-width: 1100px;
+                                                margin: 0 auto;
+                                                overflow: auto;
+                                                padding: 0 40px;
+                                            }
+                                            
+                                            .card {
+                                                color: rgb(27, 21, 21);
+                                                text-align: ceneter;
+                                                border-radius: 10px;
+                                                box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+                                                padding: 20px;
+                                                margin-left: 10px;
+                                                margin-bottom: 20px;
+                                            }
+                                            
+                                            .cards {
+                                                color: rgb(27, 21, 21);
+                                                text-align: ceneter;
+                                                border-radius: 10px;
+                                                box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+                                                padding: 10px;
+                                                margin-left: 10px;
+                                                margin-bottom: 20px;
+                                                height: 500px;
+                                                width: fit-content;
+                                            }
+                                            
+                                            .cards h2 {
+                                                text-align: center;
+                                            }
+                                            
+                                            .btn {
+                                                display: inline-block;
+                                                padding: 6px 10px;
+                                                cursor: pointer;
+                                                background-color: var(--primary-color);
+                                                color: rgb(27, 21, 21);
+                                                border: none;
+                                                border-radius: 5px;
+                                            }
+                                            
+                                            .btn-outline {
+                                                background-color: transparent;
+                                                border: 1px #fff solid;
+                                            }
+                                            
+                                            .btn:hover {
+                                                transform: scale(0.98);
+                                            }
+                                            /*backgroud and colour for buttons*/
+                                            
+                                            .bg-primary,
+                                            .btn-primary {
+                                                background-color: var(--primary-color);
+                                                color: #fff;
+                                            }
+                                            
+                                            .bg-secondary,
+                                            .btn-secondary {
+                                                background-color: var(--secondary-color);
+                                                color: #fff;
+                                            }
+                                            
+                                            .bg-dark,
+                                            .btn-dark {
+                                                background-color: var(--dark-color);
+                                                color: #fff;
+                                            }
+                                            
+                                            .btn-greens {
+                                                color: #fff;
+                                                background-color: #00A89F;
+                                            }
+                                            
+                                            .bg-light,
+                                            .btn-light {
+                                                background-color: var(--light-color);
+                                                color: #333;
+                                            }
+                                            
+                                            .bg-primary a,
+                                            .btn-primary a,
+                                            .bg-secondary a,
+                                            .btn-secondary a,
+                                            .bg-dark a,
+                                            .btn-dark a {
+                                                color: #fff;
+                                            }
+                                            /*text colors*/
+                                            
+                                            .text-primary {
+                                                color: var(--primary-color);
+                                            }
+                                            
+                                            .text-secondary {
+                                                color: var(--secondary-color);
+                                            }
+                                            
+                                            .text-dark {
+                                                color: var(--dark-color);
+                                            }
+                                            
+                                            .text-light {
+                                                color: var(--light-color);
+                                            }
+                                            /* Text sizes*/
+                                            
+                                            .sm {
+                                                font-size: 1rem;
+                                            }
+                                            
+                                            .md {
+                                                font-size: 2rem;
+                                            }
+                                            
+                                            .lg {
+                                                font-size: 3rem;
+                                            }
+                                            
+                                            .xl {
+                                                font-size: 4rem;
+                                            }
+                                            
+                                            .lead {
+                                                font-size: 20px;
+                                            }
+                                            
+                                            .text-center {
+                                                text-align: center;
+                                            }
+                                            /*alert*/
+                                            
+                                            .alert {
+                                                background-color: var(--light-color);
+                                                padding: 10px 20px;
+                                                font-weight: bold;
+                                                margin: 15px 0;
+                                            }
+                                            
+                                            .alert i {
+                                                margin-right: 5px;
+                                            }
+                                            
+                                            .alert-success {
+                                                background-color: var(--success-color);
+                                                color: #fff;
+                                            }
+                                            
+                                            .alert-error {
+                                                background-color: var(--error-color);
+                                                color: #fff;
+                                            }
+                                            
+                                            .flex {
+                                                display: flex;
+                                                justify-content: center;
+                                                align-items: center;
+                                                height: 100%;
+                                            }
+                                            
+                                            .grid {
+                                                display: grid;
+                                                /*  grid-template-columns: 1fr 1fr; the code above is the same code below*/
+                                                grid-template-columns: repeat(2, 1fr);
+                                                gap: 50px;
+                                                justify-content: center;
+                                                align-items: center;
+                                                height: 100%;
+                                            }
+                                            
+                                            .grid-3 {
+                                                display: grid;
+                                                grid-template-columns: repeat(3, 1fr);
+                                                justify-content: center;
+                                                align-items: center;
+                                                height: 100%;
+                                            }
+                                            
+                                            .footer-3 {
+                                                display: grid;
+                                                grid-template-columns: 1.5fr .5fr 2fr;
+                                                justify-content: flex-start;
+                                                height: 100%;
+                                            }
+                                            
+                                            .subfooter {
+                                                display: block;
+                                                /*  grid-template-columns: 1fr 1fr; the code above is the same code below*/
+                                                grid-template-rows: repeat(2, 1fr);
+                                                gap: 50px;
+                                                justify-content: center;
+                                                align-items: center;
+                                                height: 100%;
+                                            }
+                                            /* Margin*/
+                                            
+                                            .my-1 {
+                                                margin: 1rem 0;
+                                            }
+                                            
+                                            .my-2 {
+                                                margin: 1.5rem 0;
+                                            }
+                                            
+                                            .my-3 {
+                                                margin: 2rem 0;
+                                            }
+                                            
+                                            .my-4 {
+                                                margin: 3rem 0;
+                                            }
+                                            
+                                            .my-5 {
+                                                margin: 4rem 0;
+                                            }
+                                            /*General margin*/
+                                            
+                                            .m-1 {
+                                                margin: 1rem;
+                                            }
+                                            
+                                            .m-2 {
+                                                margin: 1.5rem;
+                                            }
+                                            
+                                            .m-3 {
+                                                margin: 2rem;
+                                            }
+                                            
+                                            .m-4 {
+                                                margin: 3rem;
+                                            }
+                                            
+                                            .m-5 {
+                                                margin: 4rem;
+                                            }
+                                            /*paggind right*/
+                                            
+                                            .py-1 {
+                                                padding: 1rem 0;
+                                            }
+                                            
+                                            .py-2 {
+                                                padding: 1.5rem 0;
+                                            }
+                                            
+                                            .py-3 {
+                                                padding: 2rem 0;
+                                            }
+                                            
+                                            .py-4 {
+                                                padding: 3rem 0;
+                                            }
+                                            
+                                            .py-5 {
+                                                padding: 4rem 0;
+                                            }
+                                            
+                                            footer .social a {
+                                                margin: 0 10px;
+                                            }
+                                            
+                                            .fa-github:hover {
+                                                color: #000000;
+                                            }
+                                            
+                                            .fa-facebook:hover {
+                                                color: #1773EA;
+                                            }
+                                            
+                                            .fa-instagram:hover {
+                                                color: #B32E87;
+                                            }
+                                            
+                                            .fa-twitter:hover {
+                                                color: #1C9CEA;
+                                            }
+                                            
+                                            .social {
+                                                margin-left: 20%;
+                                                margin-top: 20px;
+                                            }
+                                            
+                                            .center {
+                                                text-align: center;
+                                            }
+                                            
+                                            .fformdiv {
+                                                background-color: #14aea2;
+                                                justify-content: center;
+                                                margin-left: 20%;
+                                                margin-right: 10%;
+                                            }
+                                            
+                                            .ft {
+                                                padding-bottom: 18px;
+                                                font-size: 24px;
+                                            }
+                                            
+                                            .sy {
+                                                display: grid;
+                                                grid-template-columns: 1fr 0.005fr;
+                                                justify-content: start;
+                                            }
+                                            
+                                            .in {
+                                                padding-bottom: 18px;
+                                            }
+                                            
+                                            .in1 {
+                                                height: 69%;
+                                            }
+                                            
+                                            .in2 {
+                                                background-color: #F39323;
+                                                height: 70%;
+                                                margin-top: 8px;
+                                                text-align: center;
+                                            }
+                                            
+                                            .header {
+                                                padding: 60px;
+                                                text-align: center;
+                                                background-color: transparent;
+                                                color: rgb(224, 183, 183);
+                                                font-size: 30px;
+                                            }
+                                            
+                                            @media (max-width: 700px) {
+                                                .footer-3 {
+                                                    display: grid;
+                                                    grid-template-columns: 1fr;
+                                                }
+                                            }
+                                            /* @media (max-width: 700px) {
+        .footer-3 {
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+    } */
+                                            
+                                             ::-moz-placeholder {
+                                                color: rgb(30, 177, 235);
+                                                opacity: 1;
+                                                font-size: 1rem;
+                                            }
+                                            /* IE 10-11 */
+                                            
+                                             :-ms-input-placeholder {
+                                                color: rgb(30, 177, 235);
+                                                opacity: 1;
+                                                font-size: 1rem;
+                                            }
+                                            /* Edge */
+                                            
+                                             ::-ms-input-placeholder {
+                                                color: rgb(30, 177, 235);
+                                                opacity: 1;
+                                                font-size: 1rem;
+                                            }
+                                            /* MODERN BROWSER */
+                                            
+                                             ::placeholder {
+                                                color: rgb(30, 177, 235);
+                                                opacity: 1;
+                                                font-size: 1rem;
+                                            }
+                                            
+                                            footer {
+                                                background-color: #14aea2;
+                                            }
+                                            
+                                            .dfo {
+                                                margin-bottom: opx;
+                                                background: #14aea2;
+                                                color: rgb(189, 181, 181)
+                                            }
+                                            
+                                            .gold {
+                                                color: #F39323;
+                                            }
+                                            
+                                            .bl {
+                                                color: #00A89F;
+                                            }
+                                            
+                                            .imm {
+                                                width: "400px ";
+                                                height: "400px "
+                                            }
+                                            
+                                            .hh {
+                                                font-weight: bold;
+                                                font-size: 40px;
+                                            }
+                                            
+                                            .core {
+                                                height: auto;
+                                            }
